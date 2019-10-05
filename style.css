@@ -1,0 +1,49 @@
+#navbar {
+    background: darkgrey;
+
+}
+
+.navbar-nav {
+    position: absolute;
+    left: 1000px;
+}
+
+#navbar-brand {
+    position: absolute;
+    margin-right: 20px;
+    background-color: #4aaaa5;
+
+}
+
+.col-md-01 {
+    margin-top: 50px;
+}
+
+body {
+    background: url(regal/regal.png);
+}
+
+.container {
+    background: lightblue;
+    margin-top: 50px;
+    padding: 0 40px 30px 40px;
+    text-align: justify;
+    clear: both;
+}
+
+p {
+    float: right;
+}
+
+img {
+    float: left;
+}
+
+.container-2 {
+    background: lightblue;
+    margin: 100px 50px 50px 50px;
+    padding: 40px 40px 60px 40px;
+    text-align: justify;
+    clear: both;
+}
+
