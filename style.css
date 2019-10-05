@@ -1,5 +1,7 @@
 #navbar {
     background: darkgrey;
+    margin-bottom: 20px;
+    line-height: 20px;
 
 }
 
@@ -8,10 +10,18 @@
     left: 1000px;
 }
 
-#navbar-brand {
-    position: absolute;
-    margin-right: 20px;
-    background-color: #4aaaa5;
+#name {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
 
 }
 
@@ -32,11 +42,15 @@ body {
 }
 
 p {
-    float: right;
+    margin-bottom: 20px;
 }
 
 img {
     float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
 .container-2 {
@@ -46,4 +60,10 @@ img {
     text-align: justify;
     clear: both;
 }
+ 
+hr {
+    border-top: 3px solid #cccccc;
+    width: 1000px;
+}
+
 
